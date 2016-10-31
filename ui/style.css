@@ -2,6 +2,7 @@ img{
     max-width:15%;
     max-height:15%;
     display: inline;
+    position:relative;
 
 }
 title{
