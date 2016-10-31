@@ -9,3 +9,9 @@ img{
 title{
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+h1{
+    font-size:32px;
+    color:#000000;
+    font-family:Tahoma, Geneva, sans-serif;
+}
