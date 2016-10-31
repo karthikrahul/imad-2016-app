@@ -3,6 +3,7 @@ img{
     max-height:15%;
     display: inline;
     position:relative;
+    background-size:cover;
 
 }
 title{
