@@ -18,6 +18,11 @@ h1{
 P1{
 font-size:20px;
     }
-    video{
+video{
     float:right;
+    }
+    .video{
+    float:left;
+    margin-left:-25%;
+        
     }
