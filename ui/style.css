@@ -16,14 +16,19 @@ h1{
     font-family:Tahoma, Geneva, sans-serif;
 }
 h2{
-    font-size:28px;
+    font-size:26px;
     color:#0C0908  ;
     font-family:Tahoma, Geneva, sans-serif;
 }
 P1{
-font-size:20px;
+font-size:14px;
     }
-
+p2{
+    font-size:13px;
+}
+h3{
+    
+}
  .video{
     margin:0 ;
    }
