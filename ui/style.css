@@ -1,68 +1,7 @@
-img{
-    max-width:15%;
-    max-height:15%;
-    display: inline;
-    position:relative;
-    background-size:cover;
-
+.rail{
+    width:150px;
+    height:150px;
+    border-radius:70px;
+    text-align:center;
+    
 }
-title{
-    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-}
-
-h1{
-    font-size:28px;
-    color:#000000;
-    font-family:Georgia, serif;
-}
-h2{
-    font-size:26px;
-    color:#000000 ;
-    font-family:Georgia, serif;
-}
-h3{
-font-size:24px;
-    color:#000000 ;
-    font-family:Georgia, serif;    
-}
-h4{
-    font-size:22px;
-    color:#000000 ;
-    font-family:Georgia, serif;
-}
-P1{
-font-size:18px;
-    }
-p2{
-    font-size:18px;
-}
-p3{
-  font-size:18px;  
-}
-P4{
-font-size:18px;
-    }
-p5{
-    font-size:18px;
-}
-p6{
-  font-size:18px;  
-}
-P7{
-font-size:18px;
-    }
-p8{
-    font-size:18px;
-}
-p9{
-  font-size:18px;  
-}
-
-
-
- .video{
-    margin:0 ;
-   }
- .video-text{
-     padding-bottom:10;
- }
