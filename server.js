@@ -62,7 +62,7 @@ app.get('/ui/bills.png', function (req, res) {
 app.get('/ui/food.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'food.png'));
 });
-app.get('/ui/health.png', function (req, res) {
+app.get('/ui/links/health.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'health.png'));
 });
 app.get('/ui/i.png', function (req, res) {
