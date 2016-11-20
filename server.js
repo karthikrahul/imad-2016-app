@@ -56,43 +56,43 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/ui/tree.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'tree.jpg'));
 });
-app.get('/ui/links/bills.png', function (req, res) {
+app.get('/ui/bills.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bills.png'));
 });
-app.get('/ui/links/food.png', function (req, res) {
+app.get('/ui/food.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'food.png'));
 });
-app.get('/ui/links/health.png', function (req, res) {
+app.get('/ui/health.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'health.png'));
 });
-app.get('/ui/links/i.png', function (req, res) {
+app.get('/ui/i.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'i.png'));
 });
-app.get('/ui/links/indian train.png', function (req, res) {
+app.get('/ui/indian train.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'indian train.png'));
 });
-app.get('/ui/links/li.png', function (req, res) {
+app.get('/ui/li.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'li.png'));
 });
-app.get('/ui/links/online shop.jpg', function (req, res) {
+app.get('/ui/online shop.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'online shop.png'));
 });
-app.get('/ui/links/plane icon.jpg', function (req, res) {
+app.get('/ui/plane icon.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'plane icon.jpg'));
 });
-app.get('/ui/links/sn.jpg', function (req, res) {
+app.get('/ui/sn.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'sn.jpg'));
 });
-app.get('/ui/links/songs icon.jpg', function (req, res) {
+app.get('/ui/songs icon.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'songs icon.jpg'));
 });
-app.get('/ui/links/tv icon.jpg', function (req, res) {
+app.get('/ui/tv icon.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'tv icon.jpg'));
 });
-app.get('/ui/links/gov.jpg', function (req, res) {
+app.get('/ui/gov.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'gov.jpg'));
 });
-app.get('/ui/links/sbi icon.png', function (req, res) {
+app.get('/ui/sbi icon.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'sbi icon.png'));
 });
 
