@@ -53,8 +53,8 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 
-app.get('/ui/links/IMG-20161113-WA0003.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'IMG-20161113-WA0003.jpg'));
+app.get('/ui/links/tree.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'tree.jpg'));
 });
 app.get('/ui/links/bills.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'bills.png'));
@@ -80,8 +80,8 @@ app.get('/ui/links/online shop.jpg', function (req, res) {
 app.get('/ui/links/plane icon.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'plane icon.jpg'));
 });
-app.get('/ui/links/social-network-icons_23-2147497527.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'social-network-icons_23-2147497527.jpg'));
+app.get('/ui/links/sn.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'sn.jpg'));
 });
 app.get('/ui/links/songs icon.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'songs icon.jpg'));
@@ -89,8 +89,8 @@ app.get('/ui/links/songs icon.jpg', function (req, res) {
 app.get('/ui/links/tv icon.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'tv icon.jpg'));
 });
-app.get('/ui/links/government_iconsymbol_clip_art_thumb.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'government_iconsymbol_clip_art_thumb.jpg'));
+app.get('/ui/links/gov.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'gov.jpg'));
 });
 app.get('/ui/links/sbi icon.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'sbi icon.png'));
