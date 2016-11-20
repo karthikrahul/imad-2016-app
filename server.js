@@ -53,7 +53,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 
-app.get('/ui/links/tree.jpg', function (req, res) {
+app.get('/ui/tree.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'tree.jpg'));
 });
 app.get('/ui/links/bills.png', function (req, res) {
