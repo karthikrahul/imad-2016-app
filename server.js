@@ -36,8 +36,8 @@ app.get('/ui/airways.html', function (req, res) {
 app.get('/ui/food.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'food.html'));
 });
-app.get('/ui/online shopping.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'online shopping.html'));
+app.get('/ui/osh.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'osh.html'));
 });
 app.get('/ui/railways.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'railways.html'));
