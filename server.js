@@ -86,7 +86,7 @@ app.get('/ui/sn.jpg', function (req, res) {
 app.get('/ui/songs icon.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'songs icon.jpg'));
 });
-app.get('/ui/tv icon.jpg', function (req, res) {
+app.get('/ui/links/tv icon.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'tv icon.jpg'));
 });
 app.get('/ui/gov.jpg', function (req, res) {
