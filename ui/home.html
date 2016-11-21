@@ -118,22 +118,33 @@ position:absolute;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-      @media(max-width:900px) {
-                img {
-                    width:50%;
-                    margin:0;
-                }
-                .desc{
-                    width:100%;
-            
-                }
-                .button{
-                    width:50%;
-                  position:absolute;
-                
-                }
-            }
-           
+            @media screen and (max-width:769px) {
+	#wrapper {
+		margin-top:-1%;
+	}
+	
+	.one-third{
+		width:100%;
+		margin:4% 0;
+	}
+	h1{
+		font-size: 30px;
+		letter-spacing: 2px;
+	}
+	.right-col{
+		width:100%;
+		margin:0 0 3% 0;
+		margin-top:-80px;
+		margin-right:100px;
+	}
+	.one-half{
+		width:100%;
+		margin:0;
+	}
+	img{
+		width:100%;
+	}
+}   
         
     </style>
     </head>
