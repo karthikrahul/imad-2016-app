@@ -15,8 +15,8 @@ app.get('/ui/main.html', function (req, res) {
 app.get('/ui/about.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'about.html'));
 });
-app.get('/ui/Bill Payments.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Bill Payments.html'));
+app.get('/ui/bp.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'bp.html'));
 });
 app.get('/ui/Channels.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Channels.html'));
@@ -24,8 +24,8 @@ app.get('/ui/Channels.html', function (req, res) {
 app.get('/ui/Health.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Health.html'));
 });
-app.get('/ui/Indian Government Sites.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Inian Government Sites.html'));
+app.get('/ui/IndianGovernment.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'IndianGovernment.html'));
 });
 app.get('/ui/songs.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'songs.html'));
@@ -45,8 +45,8 @@ app.get('/ui/railways.html', function (req, res) {
 app.get('/ui/sbi.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'sbi.html'));
 });
-app.get('/ui/social networking.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'social networking.html'));
+app.get('/ui/socialnetworking.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'socialnetworking.html'));
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
