@@ -2,98 +2,91 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
       <link href="/ui/style.css" rel="stylesheet" />
-                <link rel="icon" href="https://raw.githubusercontent.com/karthikrahul/imad-2016-app/master/ui/i.png" type="image/png">
+                <link rel="icon" href="https://raw.githubusercontent.com/karthikrahul/imad-2016-app/master/ui/i.png" type="image/x-icon">
 <title>Linksites</title>
         <style>
-            @viewport{
-                zoom: 1.0;
-            width: extend-to-zoom;
-            }
-            body {
-                background-color: #f7f7f7;
-                width: 960px;
-                background-image:url("/ui/tree.jpg");
-                background-size:30px;
-                background-repeat: no-repeat;
-               padding-top:170px; 
-                padding-left: 150px;
-                
-                
-            }
-             h1 {
- height: 30px;
-  border:2px solid #3b5998    ;
-    overflow: hidden;
-   display:inline-block;
-    vertical-align: middle;
-    color: #FDFEFE;
-    background-color: #3b5998   ;
-    text-align:center;
-    font-family:Futura;
-    font-size: 40px;
-    padding:0.7em;
-      position:absolute;
-clear:left;
-                  right: 0;
-  top: 0;
-  left: 0;
-                 margin-top: 0;
-        }
-            ul{
-                list-style: none;
-            }
-            ul li{
-                display: inline-block;
-                padding-left: 5px;
-            }
-       
-                   footer {
-display: inline-block;
-     right:0;
-                       left:0;
-                       bottom:0;
-                       
-            }
-            p {
-            
-  clear:left;
-position:absolute;
- border:2px solid #3b5998    ;
-    overflow: hidden;
-    display:inline-block;
-    vertical-align:middle;
-     color: #FDFEFE;
-    background-color: #3b5998   ;
-    font-family:Futura;
-    font-size: 15px;
-    padding:1em;
- bottom:0;
-                right:0;
-                left:0px;
-                margin-bottom: 0;
-               
-            }
-            .desc{
-                    color: #0e385f;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: left;
-    font-weight: bold;
-    line-height: 29px;
-    width: 450px;
-    word-spacing: -1px;
-                margin-top: -70px;
-            }
-            
-            
+			* {
+margin:0;
+	padding:0;
+}
+			header{
+	background:#3b5998; 
+	width:97%:	
+	padding:auto;
+	overflow:auto;
+			}
+			body{
+	background-color: #F7F7F7;
+	}
+			h1 {
+	font-family:'Óxygen',sans-serif;
+	font-weight: bold;
+	text-align:left;
+	font-size:20px;
+	color:#0e385f;
+	padding:2% 0;
+				
+}
+			img{
+	max-width:100%;
+  height:auto;
+				
+}
+
+			.one-third{
+	width:28%;
+	float:left;
+	margin:2% 0 3% 4%;
+				margin-left:100px;
+}
+.chart{
+	padding: 0 7%;
+}
+			.right-col{
+	
+	width:60%;
+	float:right;
+	margin:4% 4% 4% 0;
+	
+}
+			footer{
+	background:#3b5998;
+	width:100%;
+
+	overflow:auto;
+
+				
+}
+			.one-half{
+	width:44%;
+	float:left;
+	padding:3%;
+				text-decoration: none;
+}
+footer h3{
+	text-decoration: underline;
+	color:white;
+}
+.footercontact{
+	text-align: left;
+	color:white;
+}
+			.clearfx{
+				clear:both;
+			}
+         
             .button {
-   padding: 25px 25px;
+  padding:3% 3% 3% 3%;
   font-size: 30px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
+				overflow: auto;
+		margin: 2% 3% 0 4%;		
+				
   color: #fff;
   transition: all 0.1;
                 text-shadow: 2px 2px 4px #000000;
@@ -103,9 +96,9 @@ position:absolute;
   border: 2px solid #578843 ;
   border-radius: 15px;
   box-shadow: 0 9px #999; 
-               position:fixed;
-                right:150px;
-                top:250px;
+				
+  margin-left: 150px;
+				margin-top:100px;
                 
 }
 
@@ -118,16 +111,17 @@ position:absolute;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-            @media screen and (max-width:769px) {
+          
+   @media screen and (max-width:769px) {
 	#wrapper {
 		margin-top:-1%;
 	}
 	
 	.one-third{
 		width:100%;
-		margin: 0;
+		margin:4% 0;
 	}
-	h2{
+	h1{
 		font-size: 30px;
 		letter-spacing: 2px;
 	}
@@ -144,33 +138,34 @@ position:absolute;
 	img{
 		width:100%;
 	}
-}   
-        
+}     
     </style>
     </head>
 <body>
-    <div id="wrapper">
+	<div id="wrapper">
+        
         <header>
-    <h1 style="text-align:center;color:white;margin-top:0px;font-size:40px;padding:1%;">Linksites</h1>
-    </header>
-    <section class="one-third">
-        <div class="chart">
-            <h2>Linksites help you link various sites from one site.</h2>
-    <img src="/ui/tree.jpg" width="450" height="400" style="position:fixed;">
-    
-   </div> 
-   </section>
-   <div class="clearfix"></div>
-   <section class="right-col">
-    <a href="/ui/main.html"><button class="button">Welcome to linksites</button></a>
-    </section>
-    <div class="clearfix"></div>
-    <footer>
-       
-        <p><a style="text-decoration:none;color:white;" href="/ui/about.html">About</a></p>
-    </footer>
-       
-
-    </div>
-    </body>
+			<h1 style="text-align:center;color:white;margin-top:30px;font-size:40px;padding:1%;">Linksites</h1>
+            
+        </header>
+		
+		<section class="one-third">
+			<div class="chart">
+				<h1>Linksites help you link various sites from one site.</h1>
+				<img src="tree.jpg" >
+</div>
+		</section>
+		<div class="clearfix"></div>
+			<section class="right-col">
+		<a href="/ui/main.html"><button class="button">Welcome to linksites</button></a>
+			</section>
+       <div class="clearfix"></div>
+        <footer>
+	
+		<section class="one-half">
+			<h3 style="font-size:20px;"><a style=text-decoration:none;color:white; href="/ui/about.html">About us</a></h3>
+			</section>
+			</footer>
+</div>
+        </body>
 </html>
